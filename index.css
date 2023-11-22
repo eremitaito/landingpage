@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--violet);
+}
+
+.card {
+    display: flex;
+}
+
+.texts {
+    display: flex;
+    flex-flow: column;
+    padding-top: 15rem;
+    padding-left: 10rem;
+}
+
+.images {
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.images .image-two {
+    padding-top: 5rem;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: white;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+
+.texts .info {
+    padding-top: 2rem;
+}
+
+.btn {
+    padding-top: 2rem;
+}
+
+button {
+    padding: 1rem 4rem;
+    border-radius: 4rem;
+    border: none;
+    color: var(--violet);
+}
